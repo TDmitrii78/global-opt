@@ -7,7 +7,7 @@
     font-family: 'Roboto';
     font-weight: 300;
 }
-ul, h1 {
+ul, h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
@@ -20,3 +20,4 @@ ul, h1 {
 @import 'blocks/header';
 @import 'blocks/button';
 @import 'blocks/title';
+@import 'blocks/advantages';
