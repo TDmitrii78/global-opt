@@ -1,0 +1,17 @@
+.work {
+    padding: 50px 0 60px 0;
+    &__wrapper {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        grid-template-rows: auto;
+        column-gap: 30px;
+        justify-content: center;
+    }
+    &__text {
+        text-align: center;
+    }
+    &__title {
+        margin: 25px 0 5px 0;
+    }
+}

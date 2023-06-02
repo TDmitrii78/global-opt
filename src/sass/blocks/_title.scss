@@ -4,10 +4,17 @@
     font-size: 26px;
     color: #2e2e2e;
     text-transform: uppercase;
-    &_14px {
+    &_16px {
         color: #ec644b;
-        font-size: 14px;
+        font-size: 16px;
         text-align: unset;
+        text-transform: unset;
+        &_center {
+            text-align: center;
+        }
+    }
+    &_white {
+        color: white;
         text-transform: unset;
     }
 }

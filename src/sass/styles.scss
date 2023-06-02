@@ -6,6 +6,8 @@
 * {
     font-family: 'Roboto';
     font-weight: 300;
+    font-size: 14px;
+    color: #2e2e2e;
 }
 ul, h1, h2, h3 {
     margin: 0;
@@ -15,9 +17,17 @@ ul, h1, h2, h3 {
     width: 1140px;
     margin: 0 auto;
 }
+.divider {
+    margin: 25px auto 17px auto;
+    width: 148px;
+    border-bottom: 1px solid #ec644b;
+}
 
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/button';
 @import 'blocks/title';
 @import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/description';
+@import 'blocks/agent';
