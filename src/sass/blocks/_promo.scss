@@ -1,6 +1,87 @@
 .promo {
+    padding: 24px 0 83px 0;
     background-image: url('../img/background/bg-promo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    &__subtitle {
+        margin-top: 8px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 24px;
+        color: white;
+        font-weight: 300;
+    }
+    &__title {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 72px;
+        line-height: 72px;
+        color: #ec644b;
+        font-weight: 700;
+        font-family: 'Roboto Condensed';
+        text-transform: uppercase;
+        &_white {
+            margin-top: 10px;
+            font-size: 42px;
+            color: white;
+            font-weight: 500;
+            line-height: 42px;
+        }
+    }
+    &__dividers {
+        margin: 40px auto 0 auto;
+        position: relative;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: white;
+        &::after {
+            content: '';
+            display: block;
+            border-bottom: 1px solid white;
+            position: absolute;
+            width: 388px;
+            height: 0px;
+            left: 24px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &::before {
+            content: '';
+            display: block;
+            border-bottom: 1px solid white;
+            position: absolute;
+            width: 388px;
+            height: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 24px;
+        }
+    }
+    &__wrapper {
+        margin-top: 25px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: auto;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 277px;
+        grid-template-rows: 63px auto;
+        row-gap: 20px;
+        &-icons {
+            justify-self: center;
+            align-self: center;
+        }
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 22px;
+        color: white;
+    }
+    &__button {
+        margin: 40px auto 0 auto;
+    }
 }

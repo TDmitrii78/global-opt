@@ -5,8 +5,9 @@
 
 * {
     font-family: 'Roboto';
+    font-weight: 300;
 }
-ul {
+ul, h1 {
     margin: 0;
     padding: 0;
 }
@@ -18,3 +19,4 @@ ul {
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/button';
+@import 'blocks/title';

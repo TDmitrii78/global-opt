@@ -1,4 +1,5 @@
 .button {
+    display: block;
     background-color: $base-color;
     width: 160px;
     height: 45px;
@@ -6,7 +7,9 @@
     border: none;
     color: white;
     font-size: 12px;
+    font-weight: 500;
     transition: all 0.3s;
+    text-transform: uppercase;
     &:hover {
         transform: translateY(-3px);
         box-shadow: 0 3px 0 #f12d09;
@@ -14,5 +17,12 @@
     &:active {
         transform: translateY(3px);
         box-shadow: 0 0px 0 #f12d09;
+    }
+    &_big {
+        height: 60px;
+        width: 231px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: 700;
     }
 }
