@@ -1,0 +1,18 @@
+.button {
+    background-color: $base-color;
+    width: 160px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    transition: all 0.3s;
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 3px 0 #f12d09;
+    }
+    &:active {
+        transform: translateY(3px);
+        box-shadow: 0 0px 0 #f12d09;
+    }
+}
