@@ -4,20 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 60px 0 70px 0;
-    &__icon {
-        margin: 0 auto;
-        width: 103px;
-        height: 103px;
-        border-radius: 100%;
-        border: 1px solid white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     &__title {
-        margin-top: 20px;
-    }
-    &__description {
-        margin-top: 20px;
+        margin-top: 15px;
     }
 }

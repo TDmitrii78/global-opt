@@ -1,0 +1,13 @@
+.circle-icon {
+    margin: 0 auto;
+    width: 103px;
+    height: 103px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_base-color {
+        border: 1px solid $base-color;
+    }
+}

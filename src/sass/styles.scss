@@ -20,7 +20,7 @@ ul, h1, h2, h3 {
 .divider {
     margin: 25px auto 17px auto;
     width: 148px;
-    border-bottom: 1px solid #ec644b;
+    border-bottom: 1px solid $base-color;
 }
 
 @import 'blocks/promo';
@@ -31,3 +31,8 @@ ul, h1, h2, h3 {
 @import 'blocks/work';
 @import 'blocks/description';
 @import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/feedback-form';
+@import 'blocks/consultation';
+@import 'blocks/managers';
+@import 'blocks/circle-icon';

@@ -5,7 +5,7 @@
     color: #2e2e2e;
     text-transform: uppercase;
     &_16px {
-        color: #ec644b;
+        color: $base-color;
         font-size: 16px;
         text-align: unset;
         text-transform: unset;
@@ -16,5 +16,11 @@
     &_white {
         color: white;
         text-transform: unset;
+    }
+    &_28px {
+        font-size: 28px;
+        font-weight: 500;
+        text-transform: unset;
+
     }
 }

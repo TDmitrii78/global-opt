@@ -11,6 +11,7 @@
     transition: all 0.3s;
     text-transform: uppercase;
     &:hover {
+        background-color: #dc5238;
         transform: translateY(-3px);
         box-shadow: 0 3px 0 #f12d09;
     }
@@ -24,5 +25,9 @@
         border-radius: 30px;
         font-size: 15px;
         font-weight: 700;
+    }
+    &_w180px {
+        width: 180px;
+        margin: 0 auto;
     }
 }
