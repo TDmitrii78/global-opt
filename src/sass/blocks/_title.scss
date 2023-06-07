@@ -16,6 +16,15 @@
     &_white {
         color: white;
         text-transform: unset;
+        &_19px {
+            font-size: 19px;
+            line-height: 19px;
+            text-transform: uppercase;
+        }
+        &_16px {
+            font-size: 16px;
+            text-align:left;
+        }
     }
     &_28px {
         font-size: 28px;

@@ -1,0 +1,20 @@
+.questions {
+    padding: 60px 0 80px 0;
+    background-image: url('../img/background/bg-questions.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__questions-block {
+        padding-bottom: 27px;
+        width: 900px;
+        margin: 0 auto;
+        background-color: rgba($color: #ffffff, $alpha: .5);
+    }
+    &__header {
+        background-color: #25333c;
+        padding: 20px;
+    }
+    &__feedback-form {
+        margin-top: 15px;
+    }
+}

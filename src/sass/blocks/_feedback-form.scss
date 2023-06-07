@@ -1,5 +1,9 @@
 .feedback-form {
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-auto-rows: auto;
+    justify-content: center;
+    gap: 5px;
     position: relative;
     input {
         width: 270px;
@@ -15,5 +19,15 @@
         left: 50%;
         transform: translateX(-50%);
         bottom: -73px;
+    }
+    textarea {
+        grid-column: 1/4;
+        border-radius: 8px;
+        padding: 10px 15px;
+        resize: none;
+    }
+    &__button {
+        margin-top: 10px;
+        grid-column: 2/3;
     }
 }

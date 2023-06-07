@@ -1,0 +1,19 @@
+.contacts-block {
+    display: flex;
+    gap: 19px;
+    &__contact-text {
+        font-size: 14px;
+        line-height: 16px;
+        color: white;
+        font-weight: 300;
+        text-align: right;
+    }
+    &__contact-phone {
+        color: white;
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        text-align: right;
+        text-decoration: none;
+    }
+}
