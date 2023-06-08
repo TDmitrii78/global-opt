@@ -62,3 +62,16 @@ function slider() {
     warn();
 }
 slider();
+
+function topFixedMenu() {
+    const nav = document.querySelector('.header__nav');
+    window.onscroll = () => {
+        if (window.pageYOffset >= 1000) {
+            nav.classList.add('header__nav_menu-top-fixed-active')
+        } else {
+            nav.classList.remove('header__nav_menu-top-fixed-active')
+        }
+    }
+
+}
+topFixedMenu();

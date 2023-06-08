@@ -11,6 +11,21 @@
             object-fit: cover;
         }
     }
+    &__nav {
+        transition: all 1s;
+        &_menu-top-fixed-active {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 30px;
+            position: fixed;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+    }
 }
 
 .menu {

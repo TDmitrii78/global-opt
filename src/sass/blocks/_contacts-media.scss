@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+    .contacts-block {
+        order: 3;
+    }
+}
+
+@media (max-width: 575px) {
+    .contacts-block {
+        order: 2;
+        flex-direction: column;
+    }
+}
