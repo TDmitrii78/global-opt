@@ -1,0 +1,12 @@
+@media (max-width: 991px) {
+    .feedback-form {
+        grid-template-columns: auto;
+        textarea {
+            grid-column: 1/2;
+        }
+        &__button {
+            margin-top: 10px;
+            grid-column: 1/2;
+        }
+    }
+}

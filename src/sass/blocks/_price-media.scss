@@ -1,0 +1,9 @@
+@media (max-width: 1199px) {
+    .prices {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 262px); 
+            justify-content: center;
+            gap: 10px;
+        }
+    } 
+}

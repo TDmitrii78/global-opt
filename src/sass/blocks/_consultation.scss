@@ -1,7 +1,7 @@
 .consultation {
     padding-bottom: 80px;
     &__consultation-block {
-       position: relative;
+        position: relative;
         margin-top: 70px;
         padding-top: 65px;
         padding-bottom: 50px;
@@ -13,7 +13,7 @@
         background-color: white;
         position: absolute;
         top: -33%;
-       left: 50%;
-       transform: translateX(-50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
