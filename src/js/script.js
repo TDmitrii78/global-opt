@@ -75,3 +75,13 @@ function topFixedMenu() {
 
 }
 topFixedMenu();
+
+function menu() {
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.header__nav');
+    hamburger.onclick = () => {
+        nav.classList.toggle('header__nav_active');
+        hamburger.classList.toggle('hamburger_active');
+    }
+}
+menu();
