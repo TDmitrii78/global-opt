@@ -20,15 +20,3 @@
     to {transform: translateY(0);
     opacity: 1;}
 }
-@keyframes translateRightTop {
-    from {transform: translate(200%, -200%);
-    opacity: 0;}
-    to {transform: translateY(0);
-    opacity: 1;}
-}
-@keyframes translateLeftBottom {
-    from {transform: translate(-200%, 200%);
-    opacity: 0;}
-    to {transform: translateY(0);
-    opacity: 1;}
-}
