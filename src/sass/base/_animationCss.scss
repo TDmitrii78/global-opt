@@ -1,0 +1,34 @@
+@keyframes translateLeft {
+    from {transform: translateX(-100%);
+    opacity: 0;}
+    to {transform: translateX(0);
+    opacity: 1;}
+}
+@keyframes translateRight {
+    from {transform: translateX(100%);
+    opacity: 0;}
+    to {transform: translateX(0);
+    opacity: 1;}
+}
+@keyframes translateTop {
+    from {transform: translateY(-200%);}
+    to {transform: translateY(0);}
+}
+@keyframes translateBottom {
+    from {transform: translateY(200%);
+    opacity: 0;}
+    to {transform: translateY(0);
+    opacity: 1;}
+}
+@keyframes translateRightTop {
+    from {transform: translate(200%, -200%);
+    opacity: 0;}
+    to {transform: translateY(0);
+    opacity: 1;}
+}
+@keyframes translateLeftBottom {
+    from {transform: translate(-200%, 200%);
+    opacity: 0;}
+    to {transform: translateY(0);
+    opacity: 1;}
+}

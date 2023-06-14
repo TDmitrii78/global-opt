@@ -1,0 +1,11 @@
+.prices {
+    &__item {
+        transition: all 1s;
+        transform: translateY(100%);
+        opacity: 0;
+        &_animation {
+            transform: translate(0);
+            opacity: 1;
+        }
+    }
+}

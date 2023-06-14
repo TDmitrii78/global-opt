@@ -1,0 +1,12 @@
+.work {
+    overflow: hidden;
+    &__item {
+        transition: all 0.5s;
+        transform: translateX(-100%);
+        opacity: 0;
+        &_animation {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}

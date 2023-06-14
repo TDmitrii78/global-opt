@@ -1,0 +1,40 @@
+.promo {
+    &__subtitle {
+        animation-name: translateLeft;
+        animation-duration: 1s;
+    }
+    &__title {
+        &_white {
+            animation-name: translateRight;
+            animation-duration: 1s;
+        }
+    }
+    &__wrapper {
+        :nth-child(1) {
+            animation-name: translateBottom;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+        :nth-child(2) {
+            animation-name: translateBottom;
+            animation-duration: 1s;
+            animation-delay: 0.3s;
+            animation-fill-mode: forwards;
+        }
+        :nth-child(3) {
+            animation-name: translateBottom;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+        :nth-child(4) {
+            animation-name: translateBottom;
+            animation-duration: 1s;
+            animation-delay: 0.3s;
+            animation-fill-mode: forwards;
+        }
+    }
+    &__item {
+        transform: translateY(200%);
+        opacity: 0;
+    }
+}

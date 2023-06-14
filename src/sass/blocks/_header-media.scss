@@ -28,7 +28,7 @@
 }
 
 @media (max-width: 575px) {
-    .header {
+    .header {animation-name: none;
         &__nav {
             position: fixed;
             z-index: 10;

@@ -23,6 +23,7 @@ ul, h1, h2, h3 {
     border-bottom: 1px solid $base-color;
 }
 
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/contacts';
@@ -42,6 +43,15 @@ ul, h1, h2, h3 {
 @import 'blocks/slider';
 @import 'blocks/questions';
 @import 'blocks/footer';
+@import 'blocks/back';
+
+@import 'base/animationCss';
+@import 'blocks/promo-animation';
+@import 'blocks/header-animation';
+@import 'blocks/advantages-animation';
+@import 'blocks/work-animation';
+@import 'blocks/price-animation';
+@import 'blocks/scheme-animation';
 
 @import 'styles-media';
 @import 'blocks/header-media';
@@ -56,3 +66,6 @@ ul, h1, h2, h3 {
 @import 'blocks/slider-media';
 @import 'blocks/questions-media';
 @import 'blocks/footer-media';
+
+
+
