@@ -1,3 +1,4 @@
+'use strict';
 function slider() {
     const items = document.querySelectorAll('.slider__item');
     const wrapper = document.querySelector('.slider__wrapper');
@@ -113,7 +114,7 @@ function animationElement(settingArrey) {
         const track = (trackElement) ? document.querySelector(`${(trackElement)}`) : false; 
         const allAnimateElement = document.querySelectorAll(`${animateElements}`);
         const arr = [];
-        for (el of allAnimateElement) {
+        for (let el of allAnimateElement) {
             arr.push(new Element(track, el, activClass, disableClass, enableClass, startDelay, delayBetweenElement, ratio, sensivityOffset, cycleAnimation));
         }
         startupEnableClass(arr, enableClass);
@@ -123,7 +124,7 @@ function animationElement(settingArrey) {
 
     const arrObjElement = [];
 
-    for (item of settingArrey) {
+    for (let item of settingArrey) {
         arrObjElement.push(createElement(...item));
     }
 
@@ -150,7 +151,7 @@ function animationElement(settingArrey) {
     }
 
     function addClass(arrObjElement, enableClass) {
-        for (item of enableClass.split(' ')) {
+        for (let item of enableClass.split(' ')) {
             arrObjElement.forEach(el => { 
                 if (!el.animateElement.classList.contains(item)) {
                     el.animateElement.classList.add(item);
@@ -168,7 +169,6 @@ function animationElement(settingArrey) {
                     setTimeout(() => {
                         item.animateElement.classList.add(`${item.activClass}`);
                     }, item.startDelay + delay);
-                    console.log(delay);
                     delay += item.delayBetweenElement;
                     if (arr.length <= index + 1) {
                         delay = 0;
@@ -189,7 +189,7 @@ function animationElement(settingArrey) {
     let delay = 0;
     
     return function start() {
-        for (item of arrObjElement) {
+        for (let item of arrObjElement) {
             baseLogic(item);
         }
     }
